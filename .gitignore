@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Data & large files (don't commit raw recordings)
+data/*.dat
+data/*.mat
+data/*.nwb
+data/*.h5
+*.npy
+
+# OS
+.DS_Store
+.env
